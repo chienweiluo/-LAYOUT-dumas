@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>前往都瑪斯</title>
+<link href="css/template.css" rel="stylesheet" type="text/css">
+<link href="css/menu.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+			$(function(){
+				$("ul.navigation > li:has(ul) > a").append('<div class="arrow-bottom"></div>');
+				$("ul.navigation > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+			});
+		</script>
+
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="logo"><img src="index/logo.png" width="111" height="76" alt=""/></div>
+  <div id="nav">
+  
+  		<ul class="navigation">
+			<li><a href="about.html">關於都瑪斯</a></li>
+            
+			<li>
+            <a href="service.html">服務項目</a>
+            	<ul>
+				    <li><a href="service.html#service01">住宿</a></li>
+					<li><a href="service.html#service02">露營</a></li>
+                    <li><a href="service.html#service03">簡餐</a></li>
+					<li><a href="service.html#service04">烤肉</a></li>
+                    <li><a href="service.html#service05">咖啡 / 泡茶</a></li>
+					<li><a href="service.html#service06">餐點介紹</a></li>
+                    <li><a href="service.html#service07">地方特產</a></li>
+			  </ul>
+          </li>
+            
+		  <li>
+            <a href="photo.html">環境圖片</a>
+            <ul>
+			        <li><a href="photo.html#photo01">都瑪斯民宿</a></li>
+					<li><a href="photo.html#photo02">客房實景</a></li>
+                    <li><a href="photo.html#photo03">露營區</a></li>
+					<li><a href="photo.html#photo04">餐飲部</a></li>
+			</ul>
+          </li>
+		  <li><a href="map.html">前往都瑪斯</a></li>
+		  <li>
+            <a href="travel.html">旅遊景點</a>
+            <ul>
+			 	    <li><a href="travel.html#travel01">卓蘭大峽谷</a></li>
+					<li><a href="travel.html#travel02">士林水壩</a></li>
+                    <li><a href="travel.html#travel03">象鼻古吊橋</a></li>
+					<li><a href="travel.html#travel04">象鼻古道</a></li>
+                    <li><a href="travel.html#travel05">二本松解說站</a></li>
+					<li><a href="travel.html#travel06">雪見遊客中心</a></li>
+                    <li><a href="travel.html#travel07">東洗水山步道</a></li>
+                    <li><a href="travel.html#travel08">北坑山溪古道</a></li>
+			</ul>
+          </li>
+			
+		</ul>
+
+  
+  </div>
+  <div id="welcome"><img src="template/welcome.png" width="217" height="87" alt=""/></div>
+  <div id="title"><img src="map/map_title_s1.png" width="783" height="87" alt=""/></div>
+  <div id="button"></div>
+  <div id="content">
+    <div id="Tabs1">
+      <ul>
+        <li><a href="#tabs-1">GOOGLE MAP導覽</a></li>
+        <li><a href="#tabs-2">傳統路線圖</a></li>
+</ul>
+      <div id="tabs-1">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7267.800334232279!2d120.9652745820967!3d24.3847761069839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3468fec399c9e505%3A0x27e8a4f27b35dada!2zMzY16IuX5qCX57ij5rOw5a6J6YSJMTItMQ!5e0!3m2!1szh-TW!2stw!4v1453209477187" width="770" height="700" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div id="tabs-2"><img src="map/map.jpg" width="673" height="701" alt=""/>
+        
+      </div>
+</div>
+  </div>
+  <div id="footer">民宿－都瑪斯民宿　苗栗民宿 版權所有© All Rights Reserved. 地址：苗栗縣泰安鄉梅園村一鄰梅園12-1號 統一編號：25205178<br>
+訂房專線：(037) 962102 傳真：(037) 962102 行動專線：0921-340472 、0911-919936</div>
+</div>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs({
+		event:"mouseover"
+	}); 
+});
+</script>
+</body>
+</html>

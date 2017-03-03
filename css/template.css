@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+#logo {
+	float: left;
+	height: 80px;
+	width: 120px;
+	margin-top: 5px;
+	margin-left: 80px;
+}
+#nav {
+	float: left;
+	height: 30px;
+	width: 650px;
+	margin-top: 55px;
+	margin-left: 80px;
+}
+#welcome {
+	float: left;
+	height: 87px;
+	width: 217px;
+	margin-top: 180px;
+	margin-left: 0px;
+}
+#title {
+	float: left;
+	height: 87px;
+	width: 783px;
+	margin-top: 180px;
+	margin-left: 0px;
+}
+#button {
+	float: left;
+	height: 596px;
+	width: 217px;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-image: url(../template/button.png);
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#button a {
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#content {
+	float: left;
+	width: 783px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#footer {
+	float: left;
+	height: 70px;
+	width: 1000px;
+	margin-top: 70px;
+	margin-left: 0px;
+	background-color: #6B4A00;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 24px;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+#wrapper {
+	width: 1000px;
+	height: 768px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../template/wrapper.png);
+	background-repeat: no-repeat;
+}
+body {
+	background-image: url(../background/grass.png);
+	background-repeat: no-repeat;
+	background-position: 0% bottom;
+}

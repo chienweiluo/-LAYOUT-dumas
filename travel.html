@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>旅遊景點</title>
+<link href="css/template.css" rel="stylesheet" type="text/css">
+<link href="css/menu.css" rel="stylesheet" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("ul.navigation > li:has(ul) > a").append('<div class="arrow-bottom"></div>');
+				$("ul.navigation > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+			});
+		</script>
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="jq/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="jq/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="jq/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="jq/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="jq/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="jq/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="jq/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="jq/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".various").fancybox({
+		maxWidth	: 800,
+		maxHeight	: 800,
+		fitToView	: false,
+		width		: '70%',
+		height		: '70%',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+});
+</script>
+
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="logo"><img src="index/logo.png" width="111" height="76" alt=""/></div>
+  <div id="nav">
+  
+  		<ul class="navigation">
+			<li><a href="about.html">關於都瑪斯</a></li>
+            
+			<li>
+            <a href="service.html">服務項目</a>
+            	<ul>
+				    <li><a href="service.html#service01">住宿</a></li>
+					<li><a href="service.html#service02">露營</a></li>
+                    <li><a href="service.html#service03">簡餐</a></li>
+					<li><a href="service.html#service04">烤肉</a></li>
+                    <li><a href="service.html#service05">咖啡 / 泡茶</a></li>
+					<li><a href="service.html#service06">餐點介紹</a></li>
+                    <li><a href="service.html#service07">地方特產</a></li>
+			  </ul>
+          </li>
+            
+		  <li>
+            <a href="photo.html">環境圖片</a>
+            <ul>
+			        <li><a href="photo.html#photo01">都瑪斯民宿</a></li>
+					<li><a href="photo.html#photo02">客房實景</a></li>
+                    <li><a href="photo.html#photo03">露營區</a></li>
+					<li><a href="photo.html#photo04">餐飲部</a></li>
+			</ul>
+          </li>
+		  <li><a href="map.html">前往都瑪斯</a></li>
+		  <li>
+            <a href="travel.html">旅遊景點</a>
+            <ul>
+			 	    <li><a href="travel.html#travel01">卓蘭大峽谷</a></li>
+					<li><a href="travel.html#travel02">士林水壩</a></li>
+                    <li><a href="travel.html#travel03">象鼻古吊橋</a></li>
+					<li><a href="travel.html#travel04">象鼻古道</a></li>
+                    <li><a href="travel.html#travel05">二本松解說站</a></li>
+					<li><a href="travel.html#travel06">雪見遊客中心</a></li>
+                    <li><a href="travel.html#travel07">東洗水山步道</a></li>
+                    <li><a href="travel.html#travel08">北坑山溪古道</a></li>
+			</ul>
+          </li>
+			
+		</ul>
+
+  
+  </div>
+  <div id="welcome"><img src="template/welcome.png" width="217" height="87" alt=""/></div>
+  <div id="title"><img src="travel/travel_title_s1.png" width="783" height="87" alt=""/></div>
+  <div id="button">裡</div>
+  <div id="content">
+  <table width="783" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30">&nbsp;</td>
+        <td width="325">
+        <a class="various" data-fancybox-type="iframe" href="travel/01.html">
+        <img src="travel/images/124142800249.jpg" width="300" height="199" />
+        </a>
+        </td>
+        <td width="39">&nbsp;</td>
+        <td width="310">
+        <a class="various" data-fancybox-type="iframe" href="travel/02.html">
+        <img src="travel/images/img1_6.jpg" width="300" height="200" />
+        </a>
+        </td>
+        
+        <td width="79">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center">&nbsp;</td>
+        <td align="center">卓蘭大峽谷</td>
+        <td align="center">&nbsp;</td>
+        <td align="center">士林水壩</td>
+        <td align="center">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>
+        <a class="various" data-fancybox-type="iframe" href="travel/03.html">
+        <img src="travel/images/img1_4.jpg" width="300" height="200" />
+        </a>
+        </td>
+        <td>&nbsp;</td>
+        <td>
+        <a class="various" data-fancybox-type="iframe" href="travel/04.html">
+        <img src="travel/images/img4-1.jpg" width="300" height="158" />
+        </a>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center">&nbsp;</td>
+        <td align="center">象鼻古道</td>
+        <td align="center">&nbsp;</td>
+        <td align="center">雪見遊客中心</td>
+        <td align="center">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center">&nbsp;</td>
+        <td align="center">
+        <a class="various" data-fancybox-type="iframe" href="travel/05.html">
+        <img src="travel/images/path05.jpg" width="200" height="120" />
+        </a>
+        </td>
+        <td align="center">&nbsp;</td>
+        <td align="center">
+        <a class="various" data-fancybox-type="iframe" href="travel/06.html">
+        <img src="travel/images/path06.jpg" width="200" height="130" />
+        </a>
+        </td>
+        <td align="center">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center">&nbsp;</td>
+        <td align="center">北坑山溪古道</td>
+        <td align="center">&nbsp;</td>
+        <td align="center">東洗水山步道</td>
+        <td align="center">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center">&nbsp;</td>
+        <td align="center">
+        <a class="various" data-fancybox-type="iframe" href="travel/07.html">
+        <img src="travel/images/yukimi02.jpg" width="280" height="150" />
+        </a>
+        </td>
+        <td align="center">&nbsp;</td>
+        <td align="center">
+        <a class="various" data-fancybox-type="iframe" href="travel/08.html">
+        <img src="travel/images/img1_5.jpg" width="300" height="200" />
+        </a>
+        </td>
+        <td align="center">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center">&nbsp;</td>
+        <td align="center">二本松解說站</td>
+        <td align="center">&nbsp;</td>
+        <td align="center">象鼻古吊橋</td>
+        <td align="center">&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div id="footer">民宿－都瑪斯民宿　苗栗民宿 版權所有© All Rights Reserved. 地址：苗栗縣泰安鄉梅園村一鄰梅園12-1號 統一編號：25205178<br>
+訂房專線：(037) 962102 傳真：(037) 962102 行動專線：0921-340472 、0911-919936</div>
+</div>
+</body>
+</html>

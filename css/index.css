@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+#logo {
+	float: left;
+	height: 80px;
+	width: 120px;
+	margin-top: 5px;
+	margin-left: 80px;
+}
+
+#nav {
+	float: left;
+	height: 30px;
+	width: 650px;
+	margin-top: 55px;
+	margin-left: 80px;
+}
+
+#show {
+	float: left;
+	height: 153px;
+	width: 700px;
+	margin-top: 460px;
+	margin-left: 0px;
+	background-image: url(../index/photo.png);
+}
+#telephone {
+	float: left;
+	height: 153px;
+	width: 300px;
+	margin-top: 460px;
+	margin-left: 0px;
+}
+
+#footer {
+	float: left;
+	height: 70px;
+	width: 1000px;
+	margin-top: 70px;
+	margin-left: 0px;
+	background-color: #FFFFFF;
+	color: #4B4B4B;
+	text-align: center;
+	line-height: 24px;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+#wrapper {
+	width: 1000px;
+	height: 885px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../index/house.jpg);
+	background-repeat: no-repeat;
+}
+body {
+	background-image: url(../background/grass.png);
+	background-repeat: repeat-x;
+	background-position: 0% bottom;
+}
