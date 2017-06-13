@@ -2,6 +2,4 @@
 just for practicing
 
 
-this project was made in 2015 .
-...or before
-
+this project was made in 2014 .
